@@ -1,0 +1,164 @@
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #222;
+    background-color: rgb(238, 232, 232) !important;
+}
+
+html * {
+    font-family: "Roboto", sans-serif;
+}
+
+.background{
+    background-image: url(media/images/baner1.jpeg);
+    background-size: cover;
+    background-position: bottom right;
+    height: 200px;
+    color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    position: relative;
+    z-index: -2;
+    max-width: 100%;
+}
+
+    .navbar {
+        background-color: rgb(87, 43, 43) !important;
+        transition: top 0.4s;
+        position: fixed;
+        width: 100%;
+        top: 0;
+        z-index: 1000;
+    }
+
+    .navbar.hidden {
+        top: -130px;
+    }
+
+    .nav-item{
+        font-size: 20px;
+    }
+
+    .dropdown-menu{
+        border: none !important;
+        background-color: rgb(87, 43, 43) !important;
+        padding-left: 6px !important;
+        padding-right: 6px !important;
+    }
+
+    .dropdown-item{
+        color:#a1a1a1 !important;
+        border-radius: 10px !important;
+    }
+
+    .dropdown-item:hover,
+    .dropdown-item:active {
+        background-color: rgb(114, 70, 70) !important;
+        color: white !important;
+        padding-left: 20px;
+    }
+
+    .dropdown-item.active{
+        background-color: rgb(99, 60, 60) !important;
+        color: white !important;
+        font-weight: bold;
+    }
+
+    .title {
+        text-decoration: none;
+        align-items: center;
+        color: rgb(216, 216, 216);
+        font-size: 28px;
+    }
+
+    .logo {
+        width: 50px;
+        height: auto;
+        margin-right: 10px;
+    }
+
+        .btn-outline-light {
+            color: #fff !important;
+            border-color: transparent !important;
+        }
+        
+        .btn-outline-light:hover {
+            color: black !important;
+        }
+
+        button{
+            cursor: pointer;
+            border: 1px solid #555;
+            text-align: center;
+            padding: 5px;
+            margin-left: 8px; 
+        }
+
+    .login-cont{
+        max-width: 500px !important;
+    }
+    
+
+    input[type=text], input[type=email], input[type=password] {
+        width: 100%;
+        padding: 12px 20px;
+        margin: 8px 0;
+        display: inline-block;
+        border: 1px solid #ccc;
+        box-sizing: border-box;
+        border-radius: 10px;
+        }
+        
+        .btn-new {
+        background-color: rgb(106, 55, 55);
+        color: white;
+        padding: 14px 20px;
+        margin: 8px 0;
+        border: none;
+        border-radius: 10px;
+        cursor: pointer;
+        width: 100%;
+        transition: transform 0.2s ease;
+        }
+
+        .btn-new:hover{
+            transform: scale(1.05);
+            opacity: 0.9;
+        }
+
+.foot1 {
+    background-color: rgb(227, 192, 192);
+}
+
+.dark-mode {
+    background-color: rgb(34, 40, 48) !important;
+    color: white;
+}
+
+    .dark-mode .navbar, .dark-mode .foot1, .dark-mode .dropdown-menu{
+        background-color: rgb(8, 11, 15) !important;
+        color: white;
+        border: none !important;
+    }
+
+    .dark-mode .dropdown-item{
+        background-color: rgb(8, 11, 15);
+        color: rgb(180, 180, 180);
+    }
+
+    .dark-mode .dropdown-item:hover,
+    .dark-mode .dropdown-item:active {
+        background-color: rgb(29, 29, 39) !important;
+        color: white !important;
+    }
+
+    .dark-mode .dropdown-item.active{
+        background-color: rgb(35, 33, 65) !important;
+        color: white !important;
+        font-weight: bold;
+    }
+
+    .dark-mode .btn-new{
+        background-color: rgb(10, 12, 17);
+    }

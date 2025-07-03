@@ -1,0 +1,459 @@
+body{
+    color: #222;
+    background-color: rgb(238, 232, 232) !important;
+}
+
+html * {
+    font-family: "Roboto", sans-serif;
+}
+
+    .navbar {
+        background-color: rgb(87, 43, 43) !important;
+        transition: top 0.4s;
+        position: fixed;
+        width: 100%;
+        top: 0;
+        z-index: 1000;
+    }
+    
+    .navbar.hidden {
+        top: -130px;
+    }
+
+    .nav-item{
+        font-size: 20px;
+    }
+
+    .dropdown-menu{
+        border: none !important;
+        background-color: rgb(87, 43, 43) !important;
+        padding-left: 6px !important;
+        padding-right: 6px !important;
+    }
+
+    .dropdown-item{
+        color:#a1a1a1 !important;
+        border-radius: 10px !important;
+    }
+
+    .dropdown-item:hover,
+    .dropdown-item:active {
+        background-color: rgb(114, 70, 70) !important;
+        color: white !important;
+        padding-left: 20px;
+    }
+
+    .dropdown-item.active{
+        background-color: rgb(99, 60, 60) !important;
+        color: white !important;
+        font-weight: bold;
+    }
+
+    .title {
+        text-decoration: none;
+        align-items: center;
+        color: rgb(216, 216, 216);
+        font-size: 28px;
+    }
+
+    .logo {
+        width: 50px;
+        height: auto;
+        margin-right: 10px;
+    }
+
+        .btn-outline-light {
+            color: #fff !important;
+            border-color: transparent !important;
+            z-index: 2;
+        }
+        
+        .btn-outline-light:hover,
+        .btn-outline:active {
+            color: black !important;
+        }
+
+        button{
+            cursor: pointer;
+            border: 1px solid #555;
+            text-align: center;
+            padding: 5px;
+            margin-left: 8px; 
+        }
+
+    .introduction{
+        font-size: 20px;
+        padding: 20px;
+        align-items: center;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .counter, .rating-num{
+        font-size: 15px;
+    }
+
+    .container .main{
+        background-color: rgb(227, 192, 192);
+        border-top-left-radius: 10px;
+        border-bottom-left-radius: 10px;
+        padding: 30px;
+        position: relative;
+        padding-left: 4vw;
+        padding-right: 4vw;
+        border: none !important;
+    }
+
+    .container .side{
+        border-top: 5px solid rgb(227, 192, 192)!important;
+        border-bottom: 5px solid rgb(227, 192, 192) !important;
+        border-right: 5px solid rgb(227, 192, 192) !important;
+        border-top-right-radius: 10px;
+        border-bottom-right-radius: 10px;
+        z-index: 1;
+    }
+
+    .sticky-wrapper{
+        z-index: 1;
+    }
+
+    .container .list_cont{
+        padding-left: 1vw;
+        padding-right: 1vw;
+        padding-top: 0.5vw;
+        padding-bottom: 0.5vw;
+        background-color: rgb(213, 170, 170);
+        border-radius: 5px;
+    }
+
+    .list1{
+        list-style: decimal;
+        padding-left: 20px;
+    }
+
+    .map-hr {
+        border: 0;
+        height: 2px;
+        background-image: linear-gradient(to right, rgb(0, 0, 0), rgb(0, 0, 0), rgb(0, 0, 0));
+        margin: 15px 0;
+    }
+
+    .headline_link{
+        text-decoration: none;
+        color: rgb(20, 26, 144);
+    }
+
+    .headline{
+        background-color: rgb(213, 170, 170);
+        border-radius: 5px;
+        padding: 5px;
+    }
+
+    .headline_link:hover,
+    .headline_link:active{
+        text-decoration:underline;
+        color: rgb(8, 62, 209);
+    }
+
+    .modalImg{
+        max-height: 80vh !important;
+    }
+
+    .img-thumbnail{
+        padding: 8px;
+        max-height: 200px;
+        background-color: transparent !important;
+        border: none !important;
+        transition: transform 0.3s ease;
+    }
+
+    .img-thumbnail-float{
+        max-height: 200px;
+        max-width: 40vw;
+        background-color: transparent !important;
+        padding: 8px;
+        border: none !important;
+        transition: transform 0.3s ease;
+        float: right;
+    }
+
+
+
+    .modal-content{
+        background-color: rgb(227, 192, 192) !important;
+        border: none !important;
+    }
+
+    .imageCaption {
+        position: relative;
+        font-size: 12px;
+    }
+
+    .img-thumbnail:hover, .img-thumbnail-float:hover{
+        transform: scale(1.1);
+    }
+
+    .info-table{
+        max-width: 17vw;
+        float: right;
+        border: 2px solid rgb(87, 43, 43) !important;
+        padding: 10px;
+        margin: 10px;
+        margin-top: 0;
+    }
+
+    .table-head{
+        text-align: center;
+        background-color: rgb(87, 43, 43);
+        font-size: 120%;
+        padding: 1rem;
+        color: white;
+    }
+
+    .popularList-item{
+        text-decoration: none;
+        color: rgb(20, 26, 144);
+        font-weight: bold;
+    }
+
+    .popularList-item:hover,
+    .popularList-item:active{
+        text-decoration:underline;
+        color: rgb(8, 62, 209);
+    }
+
+    .popular_p_img{
+        max-height: 40px;
+        margin-right: 10px;
+        margin-bottom: 10px;
+    }
+
+    .btn-primary{
+        color: #fff !important;
+        border-color: transparent !important;
+        background-color: rgb(114, 70, 70) !important;
+        transition: transform 0.2s ease !important;
+    }
+
+    .btn-primary:hover{
+        background-color: rgb(92, 55, 55) !important;
+        transform: scale(1.1) !important;
+    }
+
+
+    @media (max-width: 991px) {
+        /* CSS selector for the element whose border you want to change */
+        .container .side{
+            border-top: none !important;
+            border-bottom: 5px solid rgb(227, 192, 192) !important;
+            border-right: 5px solid rgb(227, 192, 192) !important;
+            border-left: 5px solid rgb(227, 192, 192) !important;
+            border-bottom-left-radius: 10px;
+            border-top-right-radius: 0;
+        }
+
+        .container .main{
+            border-top-left-radius: 10px;
+            border-bottom-left-radius: 0;
+            border-top-right-radius: 10px;
+        }
+    }
+
+    /* .bumbum{
+        position:relative !important;
+        background-color: aqua !important;
+        width: 50% !important;
+    }
+
+    @media (max-width: 767px) {
+        .bumbum {
+            width: 100% !important;
+        }
+    }  */
+
+
+
+.image-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  max-width: 100%;
+  max-height: 100%;
+  overflow: hidden;
+}
+
+.image-container img {
+  max-width: 100%;
+  max-height: 100%;
+  object-fit: contain;
+}
+
+.submitSuc{
+    Display: none !important;
+}
+
+
+.comment-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 5px;
+}
+
+    .comment-username {
+        padding-left: 2%;
+        font-style: italic;
+    }
+
+    .comment-date {
+        color: #777;
+        font-size: 0.9em;
+    }
+
+.comment-cont{
+    background-color: rgb(227, 192, 192);
+    padding-top: 8px;
+    padding-bottom: 8px;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    margin-top: 1rem;
+    border-left: 5px solid rgb(114, 70, 70) !important;
+}
+
+.comment-form{
+    padding: 8px;
+    margin-top: 8px;
+    border-radius: 5px;
+    margin-right: auto !important;
+
+    border: 5px solid rgb(114, 70, 70) !important;
+}
+
+.comment-body{
+    margin-bottom: 10px;
+}
+
+.comment-body p{
+    margin-bottom: 0;
+}
+
+.foot1 {
+    background-color: rgb(227, 192, 192);
+}
+
+.dark-mode {
+    background-color: rgb(34, 40, 48) !important;
+    color: white;
+}
+
+    .dark-mode .navbar, .dark-mode .foot1, .dark-mode .dropdown-menu{
+        background-color: rgb(8, 11, 15) !important;
+        color: white;
+        border: none !important;
+    }
+
+    .dark-mode .categor .col:last-child .cat-container img {
+        filter: invert(100%);
+    }
+
+    .dark-mode .dropdown-item{
+        background-color: rgb(8, 11, 15);
+        color: rgb(180, 180, 180);
+    }
+
+    .dark-mode .dropdown-item:hover,
+    .dark-mode .dropdown-item:active {
+        background-color: rgb(29, 29, 39) !important;
+        color: white !important;
+        font-weight: bold;
+    }
+
+    .dark-mode .main{
+        background-color: rgb(21, 27, 36) !important;
+    }
+
+    .dark-mode .side{
+        border-color: rgb(21, 27, 36) !important;
+    }
+
+    .dark-mode .list_cont{
+        background-color: rgb(10, 12, 17) !important;;
+    }
+
+    .dark-mode .headline_link{
+        color: rgb(242, 176, 176);
+    }
+
+    .dark-mode .headline_link:hover,
+    .dark-mode .headline_link:active{
+        color: rgb(188, 128, 128) !important;
+    }
+
+    .dark-mode .popularList-item{
+        color: rgb(242, 176, 176);
+    }
+
+    .dark-mode .popularList-item:hover,
+    .dark-mode .popularList-item:active{
+        color: rgb(188, 128, 128);
+    }
+
+    .dark-mode .headline{
+        background-color: rgb(10, 12, 17);
+    }
+
+    .dark-mode .map-hr{
+        background-image: linear-gradient(to right, rgb(170, 193, 255), rgb(170, 193, 255), rgb(170, 193, 255)) !important;
+    }
+
+    .dark-mode .img-thumbnail{
+        max-height: 200px;
+        background-color: rgb(21, 27, 36) !important;
+        border: none !important;
+        transition: transform 0.3s ease; /* Add a smooth transition */
+    }
+
+    .dark-mode .modal-content{
+        background-color: rgb(34, 40, 48) !important;
+        border: none !important;
+    }
+
+    .dark-mode .btn-primary{
+        background-color: rgb(10, 12, 17) !important;
+    }
+
+    .dark-mode .btn-primary:hover,
+    .dark-mode .btn-primary:active{
+        background-color: rgb(17, 22, 33) !important;
+    }
+
+    .dark-mode .comment-cont{
+        background-color: rgb(21, 27, 36);
+        border-left: 5px solid rgb(51, 59, 70) !important;
+    }
+
+    .dark-mode .comment-date {
+        color: #aeaeae;
+    }
+
+    .dark-mode .comment-form{
+        border: 5px solid rgb(51, 59, 70) !important;
+    }
+
+    .dark-mode .form-control{
+        background-color: rgb(10, 12, 17);
+        color:#fff
+    }
+
+    .dark-mode .form-control:focus{
+        background-color: rgb(21, 27, 36);
+        color:#fff
+    }
+
+    .dark-mode .info-table{
+        border: 2px solid rgb(51, 59, 70) !important;
+    }
+
+    .dark-mode .table-head{
+        background-color: rgb(51, 59, 70);
+    }
